@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  server:
+    image: ubuntu-iperf3:latest
+    volumes:
+      - ./server:/app
+    ports:
+      - 5001:5201
+    command: ./app/server.sh
+
+
+  client:
+    image: ubuntu-iperf3:latest
+    volumes:
+      - ./client:/app
+    command: ./app/client.sh
+    depends_on:
+      - server
