@@ -20,3 +20,5 @@ If you encounter permission problem with docker please run
 sudo chmod 666 /var/run/docker.sock
 
 
+Result example
+![output](https://user-images.githubusercontent.com/60751188/224168012-9cfb7756-1f09-4dcf-81c7-55d9c1654e91.png)
