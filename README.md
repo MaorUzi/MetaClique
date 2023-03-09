@@ -2,7 +2,7 @@ This small program create two dockers container and send TCP traffic
 from one to the other.
 
 createUbuntuIprefImage.sh - download an ubuntu image, open a container with
-that image and install iperf3 then it save it as image named ubuntu-iperf3
+that image and install iperf3, then it save it as docker image named ubuntu-iperf3.
 
 client - directory that hold the client code
 
