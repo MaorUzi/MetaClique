@@ -1,4 +1,4 @@
-This small program create two docker container and send TCP traffic
+This small program create two dockers container and send TCP traffic
 from one to the other.
 
 createUbuntuIprefImage.sh - download an ubuntu image, open a container with
