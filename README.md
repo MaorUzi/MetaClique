@@ -17,7 +17,7 @@ Instructions:
 2. run docker compose up
 
 If you encounter permission problem with docker please run
-sudo chmod 666 /var/run/docker.sock
+"sudo chmod 666 /var/run/docker.sock"
 
 
 Result example
